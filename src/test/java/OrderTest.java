@@ -11,7 +11,7 @@ public class OrderTest {
 
     @Test
     void shouldTestOrder() {
-        open("http://localhost:7777/");
+        open("http://localhost:9999/");
         SelenideElement form = $(By.className("form"));
         form.$("[data-test-id=name] input").setValue("Иванов Иван");
         form.$("[data-test-id=phone] input").setValue("+79000000000");
